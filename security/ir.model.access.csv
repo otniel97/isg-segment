@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_segment,access_segment,model_segment,,1,0,0,0
+admin_segment,admin_segment,model_segment,website.group_website_designer,1,1,1,1
+access_partner,access_partner,model_res_partner,,1,0,0,0
+admin_partner,admin_partner,model_res_partner,website.group_website_designer,1,1,1,1

@@ -1,0 +1,14 @@
+<odoo>
+    <data>
+        <record id="odoo_marketplace_wk_seller_form_view_segment" model="ir.ui.view">
+            <field name="name">seller.form.segment</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="odoo_marketplace.wk_seller_form_view"/>
+            <field name="arch" type="xml">
+                <field name="title" position="after">
+                    <field name="segment_id"/>
+                </field>
+            </field>
+        </record>
+    </data>
+</odoo>

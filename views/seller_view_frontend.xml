@@ -3,7 +3,7 @@
         <template inherit_id="isg_frontend.isg_seller_profile" id="segment_seller_profile">
             <xpath expr="//div[@id='wrap']//div[@class='container oe_website_sale o_shop_width pb-3']//div[@class='row mt-4 bg-white']//div[@class='col-lg-3 seller_identity']" position="inside">
                 <!-- Add your fields or attributes here -->
-                <div class="row p-3 mx-1 mb-2">
+                <div class="row p-0 mx-1 mb-2">
                     <div class="col-md-9 d-flex align-items-center flex-wrap">
                         <span class="text-light-blue mr-2">
                             Segmento: <t t-esc="seller.segment_id.name"/>
